@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lora');
+
+.top-bar-container {
+  background-color: gray;
+  padding: 1rem;
+  align-content: center;
+  color: white;
+}
+
+.right-container {
+  float: right;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+
+}
+
+.left-container {
+  float: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/*top bar info ^^^^^^
+header section---->*/
+.header-container {
+display: grid;
+grid-template-columns: .25fr 2.5fr .5fr;
+font-family: "gothamlight";
+padding: .5rem 1rem .5rem 1rem;
+line-height: 1;
+}
+
+.options {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem 0 7rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-bar {
+  background-color: yellow;
+  align-items: center;
+}
+
+/* banner-mid section  ---->*/
+.banner {
+  height: 15rem;
+  background: url(./img/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left-image {
+  height: 32.5rem;
+  width: 49.85%;
+  display: inline-block;
+  background-color:lightblue;
+  /*background: url(./img/losers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;*/
+}
+
+.right-image {
+  height: 32.5rem;
+  width: 49.85%;
+  display: inline-block;
+  background-color: lightgray;
+  /*background: url(./img/gravity.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;*/
+}
+
+.left-shirt-name {
+  text-align: center;
+}
+
+.buy-button {
+  background-color: #00a651;;
+  padding: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  color: white;
+}
+/* little things (images + ps etc..)*/
+.header-logo img {
+  width: 11rem;
+  cursor: pointer;
+}
+
+.h3 {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 1.625rem;
+}
+
+.h5 {
+color: #00b9bd;
+text-decoration: none;
+line-height: inherit;
+}
+
+.price {
+  display: inline-block;
+  font-size: 2rem;
+  color: #00a651;;
+  margin-right: 1rem;
+}
+
+.buy-it-container {
+  margin-top: 1rem;
+}
