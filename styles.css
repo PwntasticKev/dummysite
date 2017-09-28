@@ -39,8 +39,11 @@ line-height: 1;
 }
 
 .search-bar {
-  background-color: yellow;
-  align-items: center;
+  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  margin-top: 20px;
 }
 
 /* banner-mid section  ---->*/
