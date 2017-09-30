@@ -1,6 +1,11 @@
 $(document).ready(function() {
-$('ul li').on('click', function(){
-          $('#tees').addClass( "selected highlight" );
-          console.log('working?')
-})
+$('ul li').hover(function() {
+  $(this).css({"color": "red"});
+});
+$('ul li').mouseleave(function() {
+  $(this).css({"color": "black"})
+});
+
+
+
 });

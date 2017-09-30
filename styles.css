@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Lora');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
 
 .top-bar-container {
   background-color: gray;
@@ -24,7 +29,6 @@ header section---->*/
 .header-container {
 display: grid;
 grid-template-columns: .25fr 2.5fr .5fr;
-font-family: "gothamlight";
 padding: .5rem 1rem .5rem 1rem;
 line-height: 1;
 }
@@ -114,4 +118,26 @@ line-height: inherit;
 
 .buy-it-container {
   margin-top: 1rem;
+}
+#tees:hover{
+  text-decoration: underline;
+  position: relative;
+  padding: .4rem;
+  margin-right: 10px;
+  text-decoration: none;
+
+&::after {
+  content:'';
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  transform: scaleX(0);
+  background-color: red;
+}
+&:hover{
+  &::after {
+    transform:scaleX(1);
+  }
+}
 }
