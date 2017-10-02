@@ -80,6 +80,7 @@ line-height: 1;
 
 .left-shirt-name {
   text-align: center;
+  display: inline-block;
 }
 
 .buy-button {
@@ -91,6 +92,27 @@ line-height: 1;
   border-radius: 4px;
   color: white;
 }
+
+.is-countdown {
+    font-size: 1.9rem;
+    display: inline-block;
+    background-color: white;
+    color: #ff8500;
+    border: 1px solid #ff8500;
+    margin-top: 1.8rem;
+}
+
+.countdown {
+  width: 100%;
+  display: inline-block;
+}
+
+.shirt-bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 /* little things (images + ps etc..)*/
 .header-logo img {
   width: 11rem;
@@ -121,23 +143,5 @@ line-height: inherit;
 }
 #tees:hover{
   text-decoration: underline;
-  position: relative;
-  padding: .4rem;
-  margin-right: 10px;
-  text-decoration: none;
 
-&::after {
-  content:'';
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  height: 1px;
-  transform: scaleX(0);
-  background-color: red;
-}
-&:hover{
-  &::after {
-    transform:scaleX(1);
-  }
-}
 }
