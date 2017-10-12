@@ -6,41 +6,89 @@ body {
 }
 
 .top-bar-container {
-  background-color: gray;
-  padding: 1rem;
-  align-content: center;
-  color: white;
+    background-color: #00b9bd;
+    color: white;
+    font-family: "Cairo";
+    font-weight: lighter;
+    height: 30px;
+    padding: 2px 10px 20px 2px;
 }
 
-.right-container {
+.right-container .top-bar {
+  margin: 0 1.9625rem;
+  margin-top: 0.3375rem;
+  display: flex;
+  justify-content: space-between;
   float: right;
-  display: grid;
-  grid-template-columns:1fr 1fr;
-
+  line-height: 1rem;
 }
 
-.left-container {
+.left-container .top-bar {
+  margin: 0 1.9625rem;
+  margin-top: 0.3375rem;
+  display: flex;
+  justify-content: space-between;
   float: left;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  line-height: 1rem;
 }
+
+.carts-carts {
+margin-left: 10rem;
+}
+
+.carts-email {
+margin-right: 10rem;
+}
+
+#cart, #login  {
+  margin-right: .5rem;
+}
+
+#email  {
+  margin-left: .5rem;
+}
+
 /*top bar info ^^^^^^
 header section---->*/
+
 .header-container {
 display: grid;
-grid-template-columns: .25fr 2.5fr .5fr;
-padding: .5rem 1rem .5rem 1rem;
+grid-template-columns: 1.9fr 4fr 2fr;
+padding:.3rem .1rem .2rem .2rem;
+/*padding: .5rem 1rem .5rem 1rem;*/
 line-height: 1;
 }
 
+.logo-container {
+  display:inline-block;
+  padding-left: 1rem;
+}
+.options-container {
+  align-items: center;
+}
 .options {
+display: flex;
+justify-content: space-between;
+margin-top: 1.5rem;
+font-size: 1.1rem;
+font-family: "Cairo";
+/*text-align: center;*/
+/*justify-content: center;*/
+align-content: center;
+
+}
+.search-bar-container {
+  display: inline-block;
+}
+
+/*.options {
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
   margin: 0 2rem 0 7rem;
   align-items: center;
   cursor: pointer;
-}
+}*/
 
 .search-bar {
   background-color: lightyellow;
@@ -52,35 +100,64 @@ line-height: 1;
 
 /* banner-mid section  ---->*/
 .banner {
-  height: 15rem;
+  height: 15.625rem;
   background: url(./img/header.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .left-image {
-  height: 32.5rem;
+  height: 35.5rem;
   width: 49.85%;
   display: inline-block;
-  background-color:lightblue;
-  /*background: url(./img/losers.jpg);
+  /*background-color:lightblue;*/
+  background: url(./img/losers.jpg);
   background-size: cover;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 }
 
 .right-image {
-  height: 32.5rem;
+  height: 35.5rem;
   width: 49.85%;
   display: inline-block;
-  background-color: lightgray;
-  /*background: url(./img/gravity.jpg);
+  /*background-color: lightgray;*/
+  background: url(./img/gravity.jpg);
   background-size: cover;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 }
 
+.shirt-swap-1 {
+  background-color: gray;
+  width: 80px;
+  height: 60px;
+  margin-top: 29.9rem;
+  margin-left: 20px;
+}
+
+.shirt-swap-box1 {
+    background-color: gray;
+    width: 80px;
+    height: 60px;
+    margin-top: 29.9rem;
+    margin-left: 20px;
+}
+
+.shirt-swap-2 {
+  /*background-color: gray;
+  width: 80px;
+  height: 60px;
+ margin-top: 20rem;*/
+}
+
+
+/*.image-container {
+display:grid;
+grid-template-columns: repeat(2, 1fr)
+}*/
 .left-shirt-name {
   text-align: center;
   display: inline-block;
+  letter-spacing: 2px;
 }
 
 .buy-button {
@@ -187,6 +264,7 @@ display: inline-block;
 .header-logo img {
   width: 11rem;
   cursor: pointer;
+  padding: .5rem;
 }
 
 .h3 {
