@@ -72,23 +72,13 @@ justify-content: space-between;
 margin-top: 1.5rem;
 font-size: 1.1rem;
 font-family: "Cairo";
-/*text-align: center;*/
-/*justify-content: center;*/
+cursor: pointer;
 align-content: center;
 
 }
 .search-bar-container {
   display: inline-block;
 }
-
-/*.options {
-  font-size: 1rem;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 2rem 0 7rem;
-  align-items: center;
-  cursor: pointer;
-}*/
 
 .search-bar {
   background-color: lightyellow;
@@ -108,7 +98,7 @@ align-content: center;
 
 .left-image {
   height: 35.5rem;
-  width: 49.85%;
+  width: 49.88%;
   display: inline-block;
   /*background-color:lightblue;*/
   background: url(./img/losers.jpg);
@@ -118,23 +108,77 @@ align-content: center;
 
 .right-image {
   height: 35.5rem;
-  width: 49.85%;
+  width: 49.88%;
   display: inline-block;
   /*background-color: lightgray;*/
   background: url(./img/gravity.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 20px
 }
 
-.shirt-swap-1 {
-  background-color: gray;
+.shirt-swap-rb {
+  background: url(http://www.teefury.com/media/catalog/product/cache/1/odad_flat_product/960x680/9df78eab33525d08d6e5fb8d27136e95/t/e/tee_pop-pop-corn_beware_1984_blk.png?color=odad-gray);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 80px;
   height: 60px;
-  margin-top: 29.9rem;
   margin-left: 20px;
+  cursor: pointer;
+  box-shadow: 20px
 }
 
-.shirt-swap-box1 {
+.gem {
+  height: 20px;
+  bottom:0;
+  background-color: pink;
+  display: inline-block;
+  float: right;
+  margin-right: 1.2rem;
+  margin-bottom: 1rem;
+
+  /*margin-top: 25.9rem;
+  margin-bottom: .5rem;
+  margin-left: 20px;*/
+  cursor: pointer;
+}
+
+.shirt-swap-rt {
+  background: url(http://www.teefury.com/media/catalog/product/cache/1/odad_model_pair/960x680/9df78eab33525d08d6e5fb8d27136e95/o/d/odad_modelpair_pop-pop-corn.png?color=odad-gray);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 60px;
+  margin-top: 25.9rem;
+  margin-bottom: .5rem;
+  margin-left: 20px;
+  cursor: pointer;
+  box-shadow: 20px
+}
+.shirt-swap-lt {
+  background: url(./img/gravity.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 60px;
+  margin-top: 25.9rem;
+  margin-bottom: .5rem;
+  margin-left: 43.3rem;
+  cursor: pointer;
+  box-shadow: 20px
+}
+
+.shirt-swap-lb {
+  background: url(./img/gravity.jpg);
+  cursor: pointer;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 60px;
+  margin-left: 43.3rem;
+}
+
+.shirt-left-box1 {
     background-color: gray;
     width: 80px;
     height: 60px;
@@ -142,18 +186,7 @@ align-content: center;
     margin-left: 20px;
 }
 
-.shirt-swap-2 {
-  /*background-color: gray;
-  width: 80px;
-  height: 60px;
- margin-top: 20rem;*/
-}
 
-
-/*.image-container {
-display:grid;
-grid-template-columns: repeat(2, 1fr)
-}*/
 .left-shirt-name {
   text-align: center;
   display: inline-block;
