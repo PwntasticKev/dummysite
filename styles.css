@@ -297,6 +297,7 @@ display: inline-block;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 1rem;
+  padding-top: 1rem 0 3rem 0;
   text-align: center;
   padding-bottom: 1.5rem;
 }
@@ -305,16 +306,18 @@ display: inline-block;
   min-height: 12.5rem;
   color: white;
   font-size: 1.5rem;
-  background-image: url(./img/shirt.jpg);
+  padding-top: 1rem 0 3rem 0;
+  background-color: blue;
+  background-image: url(https://www.teefury.com/media/tfcms/category/14/HP_PCBlocks_Tanks.jpg);
+
+  /*background-image: url(./img/shirt.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
 
 }
 
-.text1 {
-  padding-top: 1rem 0 3rem 0;
-}
+
 
 /* end of lower menu-----
 /* little things (images + ps etc..)*/
@@ -325,7 +328,7 @@ display: inline-block;
 }
 
 .h3 {
-  margin-top: 2rem;
+  margin-top: 1.8rem;
   font-weight: bold;
   font-size: 1.625rem;
 }
