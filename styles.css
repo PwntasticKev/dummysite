@@ -89,20 +89,26 @@ align-content: center;
 }
 
 /* banner-mid section  ---->*/
+
+.test {
+  text-align: center;
+}
 .banner {
   height: 15.625rem;
-  background: url(./img/header.png);
+  background: url(./img/Exclusive-Collection-Sale_HomepageBnnr_BG.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .left-image {
   height: 35.5rem;
   width: 49.88%;
   display: inline-block;
-  /*background-color:lightblue;*/
   background: url(./img/losers.jpg);
   background-size: cover;
+    /*background-position: center;*/
   background-repeat: no-repeat;
 }
 
@@ -110,13 +116,26 @@ align-content: center;
   height: 35.5rem;
   width: 49.88%;
   display: inline-block;
-  /*background-color: lightgray;*/
   background: url(./img/gravity.jpg);
   background-size: cover;
+  /*background-position: center;*/
   background-repeat: no-repeat;
   box-shadow: 20px
 }
 
+
+.gem {
+  height: 2.8rem;
+  width: 2.8rem;
+  bottom:0;
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+  position: relative;
+  bottom: 2.9rem;
+  right: 1.3rem;;
+
+}
 .shirt-swap-rb {
   background: url(http://www.teefury.com/media/catalog/product/cache/1/odad_flat_product/960x680/9df78eab33525d08d6e5fb8d27136e95/t/e/tee_pop-pop-corn_beware_1984_blk.png?color=odad-gray);
   background-size: cover;
@@ -125,22 +144,8 @@ align-content: center;
   height: 60px;
   margin-left: 20px;
   cursor: pointer;
-  box-shadow: 20px
-}
-
-.gem {
-  height: 20px;
-  bottom:0;
-  background-color: pink;
-  display: inline-block;
-  float: right;
-  margin-right: 1.2rem;
-  margin-bottom: 1rem;
-
-  /*margin-top: 25.9rem;
-  margin-bottom: .5rem;
-  margin-left: 20px;*/
-  cursor: pointer;
+  border: 1px solid rgba(241, 241, 241, 0.25);
+  box-shadow: 0px 2px 3px 0px #4c5152;
 }
 
 .shirt-swap-rt {
@@ -153,7 +158,8 @@ align-content: center;
   margin-bottom: .5rem;
   margin-left: 20px;
   cursor: pointer;
-  box-shadow: 20px
+  border: 1px solid rgba(241, 241, 241, 0.25);
+  box-shadow: 0px 2px 3px 0px #4c5152;
 }
 .shirt-swap-lt {
   background: url(./img/gravity.jpg);
@@ -165,7 +171,8 @@ align-content: center;
   margin-bottom: .5rem;
   margin-left: 43.3rem;
   cursor: pointer;
-  box-shadow: 20px
+  border: 1px solid rgba(241, 241, 241, 0.25);
+  box-shadow: 0px 2px 3px 0px #4c5152;
 }
 
 .shirt-swap-lb {
@@ -176,31 +183,44 @@ align-content: center;
   width: 80px;
   height: 60px;
   margin-left: 43.3rem;
+  border: 1px solid rgba(241, 241, 241, 0.25);
+  box-shadow: 0px 2px 3px 0px #4c5152;
 }
 
 .shirt-left-box1 {
-    background-color: gray;
-    width: 80px;
-    height: 60px;
-    margin-top: 29.9rem;
-    margin-left: 20px;
+  background-color: gray;
+  width: 80px;
+  height: 60px;
+  margin-top: 29.9rem;
+  margin-left: 20px;
 }
-
 
 .left-shirt-name {
   text-align: center;
   display: inline-block;
   letter-spacing: 2px;
+  /*font-weight: bold;*/
+  font-size: 1.625rem;
 }
 
 .buy-button {
   background-color: #00a651;;
-  padding: 1rem;
-  font-size: 1.4rem;
+  padding: 0.75em 1.25em;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
   display: inline-block;
-  border-radius: 4px;
+  border-radius: 0px;
   color: white;
+}
+
+#buyleft {
+margin-right: 4.6rem;
+}
+
+#buyright {
+  margin-right: 4.6rem;
 }
 
 .is-countdown {
@@ -209,14 +229,12 @@ align-content: center;
     background-color: white;
     color: #ff8500;
     border: 1px solid #ff8500;
-    margin-top: 1.8rem;
+    margin-top: 1.5rem;
 }
 
 .is-countdown {
-margin-left: 39.5rem;
 position: relative;
 bottom: 7rem;
-text-align: center;
 }
 
 .shirt-left-container{
@@ -226,6 +244,7 @@ display: inline-block;
 }
 .shirt-right-container {
   width: 49.85%;
+  /*margin-left: 1rem;*/
   text-align: center;
   display: inline-block;
 }
@@ -284,12 +303,17 @@ display: inline-block;
 
 .tees-box {
   min-height: 12.5rem;
-  color: blue;
-  font-size: 1.6rem;
+  color: white;
+  font-size: 1.5rem;
   background-image: url(./img/shirt.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+}
+
+.text1 {
+  padding-top: 1rem 0 3rem 0;
 }
 
 /* end of lower menu-----
@@ -301,21 +325,24 @@ display: inline-block;
 }
 
 .h3 {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   font-weight: bold;
   font-size: 1.625rem;
 }
 
 .h5 {
 color: #00b9bd;
+font-size: 1rem;
 text-decoration: none;
 line-height: inherit;
 }
 
 .price {
   display: inline-block;
-  font-size: 2rem;
-  color: #00a651;;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #00a651;
+  text-align: right;
   margin-right: 1rem;
 }
 
