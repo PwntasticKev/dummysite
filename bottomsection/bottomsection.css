@@ -46,6 +46,55 @@
 
 /*footer section*/
 
+.f-title {
+  margin-top: 0.2rem;
+  margin-bottom: .5rem;
+  font-weight: 300;
+}
+
+
+
 .footer {
   background-color: #2C3333;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5em 0.75rem 0;
+}
+
+.footer-right-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  padding: 0 2rem 2rem 6rem;
+}
+
+.f-i {
+  line-height: 1.25rem;
+}
+
+.footer-left-container {
+  padding: 0 2rem 2rem 10rem;
+  color: white;
+}
+
+.links {
+  text-align: center;
+  text-decoration: none;
+  margin-left: 0.5em;
+  font-size: 0.75rem;
+  color: #2c3233;
+}
+
+.copy-right-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0.75rem;
+}
+
+
+
+.footer-icons img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  cursor: pointer;
 }
