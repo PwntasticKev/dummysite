@@ -1,11 +1,7 @@
 $(document).ready(function() {
-$('ul li').hover(function() {
-  $(this).css({"color": "red"});
-});
-$('ul li').mouseleave(function() {
-  $(this).css({"color": "black"})
-});
+  $('.shirt-swap-rt').on('click', function() {
+    $('.right-image').append($('.shirt-swap-rb'))
 
-
-
+    console.log('working?')
+  })
 });

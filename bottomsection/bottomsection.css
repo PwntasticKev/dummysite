@@ -1,13 +1,12 @@
-/*.blog-check-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 5rem 0 2rem 0;
-}*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
 .bottom-info-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 2;
   text-align: center;
+  padding: 0 8.2rem 0 8.2rem;
 }
 
 .bottom-container {
@@ -40,7 +39,22 @@
 }
 
 .what-is {
+  font-size: 1.4375rem;
+  font-weight: bold;
+  letter-spacing: 1px;
   margin: 1.5rem 0 1.5rem 0;
+}
+
+.what-is-content {
+  text-align: justify;
+  padding: 0 1rem 0 1rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.what-is-container {
+  padding: 0 2rem 0 2rem;
 }
 
 
@@ -72,29 +86,66 @@
   line-height: 1.25rem;
 }
 
+.footershiz {
+  color: white;
+  text-decoration: none;
+}
+
+.copy-right {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+}
+
 .footer-left-container {
-  padding: 0 2rem 2rem 10rem;
+  padding: 0 2rem 1.9rem 14rem;
   color: white;
 }
 
 .links {
   text-align: center;
-  text-decoration: none;
-  margin-left: 0.5em;
+  margin-left: 1rem;
   font-size: 0.75rem;
   color: #2c3233;
 }
 
-.copy-right-container {
+.copyright-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 0.75rem;
+  padding: 1.5rem 0 1rem;
+}
+
+.copyright-right-container {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.footer-email {
+  height: 2.7rem;
+  width: 23.4375rem;
+  display: inline-block;
+  border: 1px solid #cccccc;
+}
+
+.sign-up-button {
+  display: inline-block;
+  align-items: center;
+  height: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem;
+  vertical-align: middle;
+  background-color: #00B9BD
 }
 
 
 
 .footer-icons img {
-  height: 1.5rem;
-  padding-right: 1rem;
+  height: 1.4rem;
+  padding-right: 1.5rem;
+  margin-top: 1rem;
   cursor: pointer;
 }
