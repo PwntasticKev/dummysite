@@ -1,0 +1,48 @@
+@media screen and (max-width: 1198px) {
+  #left-shirt-main {
+    padding-left: 3rem;
+    /*width: 48%;*/
+  }
+
+  .shirt-right-container {
+
+    float: right;
+  }
+
+  .shirt-left-container {
+
+  }
+
+  #homepage-countdown {
+    bottom: 12rem;
+    left: 18.8rem;
+  }
+
+  .banner {
+    height: 0;
+  }
+
+#testie {
+  bottom: 0;
+  bottom: 10.5rem;
+}
+.shirt-grid {
+  padding: 0;
+  /*height: 0;
+  height: 12rem;*/
+}
+
+.shirt-grid img {
+  height:19rem;
+}
+
+.shirt {
+  height: auto;
+}
+
+.share-grid {
+  padding: 0;
+  padding: 0 .4rem 0 .4rem;
+}
+
+}
