@@ -1,8 +1,6 @@
 $(document).ready(function() {
   $('.shirt-swap-rt').on('click', function() {
-    $('.shirt-swap-rt').removeClass()
-    $('.right-image').removeClass()
-    $('.shirt-swap-rt').addClass($('right-image'))
+    $('.right-image').removeClass($("right-image").addClass("shirt-swap-rt"))
     // $('.shirt-swap-rt').addClass('right-image')
 
     console.log('working?')
@@ -18,7 +16,7 @@ $(document).ready(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 
-    document.getElementById("demo").innerHTML =  hours + ":"
+    document.getElementById("demo").innerHTML =  "0" + hours + ":"
     + minutes + ":" + seconds + "s";
     
     if (distance < 0) {

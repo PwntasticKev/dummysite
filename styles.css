@@ -347,13 +347,29 @@ right: 10rem;
 .shadow-background {
   background-position: center;
   background-size: cover;
-  background-image: url(https://www.teefury.com/media/tfcms/category/14/HP_PCBlocks_Tanks.jpg);
+  /*background-image: url(https://www.teefury.com/media/tfcms/category/14/HP_PCBlocks_Tanks.jpg);*/
   /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);*/
 }
 
 #testie {
   position: relative;
   bottom:14rem;
+}
+
+#Tees {
+background-image: url(./img/HP_PCBlocks_Tees.jpg)
+}
+#Tanks {
+background-image: url(./img/HP_PCBlocks_Tanks.jpg)
+}
+#Hoodies {
+background-image: url(./img/hp_pcblocks_hoodies.jpg);
+}
+#Posters {
+  background-image: url(./img/poster.jpg);
+}
+#Limited {
+  background-image: url(./img/HP_PCBlocks_Resource.jpg);
 }
 
 
@@ -414,7 +430,7 @@ margin-top: .2rem;
   width: 100%;
   opacity: 0.4;
   padding: 6rem 3rem 3rem 3rem;
-  background-image: url(./img/HPB_Falloween_BG_1.png);
+  /*background-image: url(./img/HPB_Falloween_BG_1.png);*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -425,7 +441,7 @@ margin-top: .2rem;
   width: 100%;
   padding-top: 6rem;
   vertical-align: middle;
-  background-image: url(./img/GB_BGround_3.png);
+  /*background-image: url(./img/GB_BGround_3.png);*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
