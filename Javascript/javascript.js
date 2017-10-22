@@ -16,9 +16,9 @@ $(document).ready(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 
-    document.getElementById("demo").innerHTML =  "0" + hours + ":"
+    document.getElementById("demo").innerHTML = hours + ":"
     + minutes + ":" + seconds + "s";
-    
+
     if (distance < 0) {
       clearInterval(x);
       document.getElementById("demo").innerHTML = "EXPIRED";
