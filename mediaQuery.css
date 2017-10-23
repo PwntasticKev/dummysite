@@ -46,3 +46,98 @@
 }
 
 }
+
+
+
+@media screen and (max-width: 1576px) {
+.shirt-swap-lt {
+  margin-left: 42rem;
+}
+
+.shirt-swap-lb {
+  margin-left: 42rem;
+}
+
+}
+
+@media screen and (min-width: 1720px) {
+  .shirt-swap-lt {
+    margin-top: 34.8rem;
+    margin-left: 53.3rem;
+  }
+
+  .shirt-swap-lb {
+    margin-left: 53.3rem;
+  }
+
+  .shirt-swap-rt {
+    margin-top: 34.8rem;
+    margin-right: 50.7rem;
+  }
+.right-image {
+  height: 45rem;
+}
+.left-image {
+  height: 45rem;
+}
+
+.is-countdown {
+  left:12.5rem;
+  width: 14rem;
+}
+
+#testie {
+bottom: 17.4rem;
+}
+
+.featured-at-creek {
+  left: 48.5rem;
+}
+
+
+#sharephotos {
+left: 38.5rem;
+}
+
+#blogtitle {
+left: 24.5rem;
+}
+
+#checkitouttitle {
+left: 51.5rem;
+}
+
+.bottom-container {
+  padding: 0px 18rem 2rem;
+}
+
+.bottom-info-container {
+  padding: 0px 16.3rem 2rem;
+}
+
+.pic-1 {
+}
+
+.pic-2 {
+}
+
+body {
+padding: 0 .1px 0 .1px;
+}
+
+.shirt-grid {
+  padding: 0 17rem 0 17rem;
+}
+
+.footer {
+  padding: 2rem 9rem 0rem 9rem;
+}
+
+.share-grid {
+padding: 0px 18rem;
+    margin: 2rem 0px 4.8rem;
+}
+
+
+
+}

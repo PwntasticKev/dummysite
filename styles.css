@@ -91,11 +91,32 @@ align-content: center;
 }
 
 .search-bar {
-  /*background-color: lightyellow;*/
   display: flex;
   justify-content: center;
-  height: 25px;
-  margin-top: 20px;
+  border-color: black;
+  margin-top: 6px;
+  padding-left: 9rem;
+
+}
+
+#search {
+  margin: 0;
+background-color: #f1f1f1;
+border-color: black;
+border: 1px solid;
+line-height: 3rem;
+height: 3rem;
+padding: 0;
+padding-left: 2.625rem;
+transition: padding 150ms ease-out;
+color: #2c3233;
+width: 14rem;
+font-size: 1rem;
+}
+
+.magglass{
+height: 3rem;
+width: 1rem;
 }
 
 /* banner-mid section  ---->*/
@@ -284,7 +305,7 @@ display: inline-block;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: .5rem;
-  padding: .5rem;
+  padding: 0 .5rem;
   text-align: center;
 }
 
@@ -301,10 +322,11 @@ display: inline-block;
 
 .--featured-- {
   height: 1px;
-  margin-left: auto;
+  width: 90%;
   position: relative;
   z-index: 2;
-  margin-right:auto;
+  left: 7rem;
+  margin-top: 1.9rem;
   background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #00b9bd 25%, #00b9bd 75%, rgba(0, 0, 0, 0) 100%);
 }
 
@@ -315,27 +337,29 @@ display: inline-block;
   position: relative;
   padding: 0 2rem;
   z-index: 3;
-  left: 40rem;
+  font-weight: bold;
+  left: 39rem;
   bottom: .8rem;
 }
 
 #fanfavs {
-  margin-top: 2rem;
-  /*left:3rem;*/   
+  position: relative;
+  margin-top: 5rem;
+  left:3.7rem;
   /*left: 3.5rem;*/
 }
 
 #sharephotos {
-  right: 4rem;
+  left: 30rem;
 }
 
 #blogtitle {
   /*left: 0;*/
-  left: 21rem;
+  left: 16rem;
 }
 
 #checkitouttitle {
-right: 10rem;
+left: 43rem;
 }
 
 .menu-pics {
@@ -441,7 +465,7 @@ margin-top: .2rem;
   height:22rem;
   width: 100%;
   opacity: 0.8;
-  padding: 6rem 3rem 3rem 3rem;
+  padding: 8rem 2rem 8rem 2rem;
   background-image: url(./img/HPB_Falloween_BG_1.png);
   background-position: center;
   background-size: cover;
