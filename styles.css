@@ -12,12 +12,12 @@ body {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
-    height: 30px;
+    height: 32px;
     padding: 2px 10px 20px 2px;
 }
 
 .right-container .top-bar {
-  margin: 0 1.9625rem;
+  /*margin-left: 2.5rem;*/
   margin-top: 0.3375rem;
   display: flex;
   justify-content: space-between;
@@ -25,9 +25,12 @@ body {
   line-height: 1rem;
 }
 
+.carts {
+  padding-left: 1rem;
+}
 
 .left-container .top-bar {
-  margin: 0 1.9625rem;
+  margin-left: 1rem;
   margin-top: 0.3375rem;
   display: flex;
   justify-content: space-between;
@@ -35,12 +38,16 @@ body {
   line-height: 1rem;
 }
 
+
+
+#myCart {
+  padding-right: 1.5rem;
+}
+
 .carts-carts {
-margin-left: 10rem;
 }
 
 .carts-email {
-margin-right: 10rem;
 }
 
 #cart, #login  {
@@ -74,7 +81,7 @@ display: flex;
 justify-content: space-between;
 margin-top: 1.5rem;
 font-size: 1.1rem;
-font-family: "Cairo";
+font-family: 'Montserrat', sans-serif;
 cursor: pointer;
 align-content: center;
 
@@ -220,7 +227,6 @@ align-content: center;
   background-color: #00a651;;
   padding: 0.75em 1.25em;
   font-size: 1.25rem;
-  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   display: inline-block;
@@ -244,16 +250,21 @@ margin-right: 4.6rem;
     align-content: center;
     color: #ff8500;
     border: 1px solid #ff8500;
-    margin-top: 1.5rem;
+    margin-top: 1.6rem;
     position: relative;
     left:8.1rem;
     padding: .1rem;
+    width: 12.5rem;
+}
+
+#demo {
+  padding-top: 4px;
 }
 
 #hours-left {
   color: black;
   font-size: 1.125rem;
-  padding:.25rem;
+  padding-top:.25rem;
 }
 
 
@@ -310,6 +321,7 @@ display: inline-block;
 
 #fanfavs {
   margin-top: 2rem;
+  /*left:3rem;*/   
   /*left: 3.5rem;*/
 }
 
@@ -329,8 +341,8 @@ right: 10rem;
 .menu-pics {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 1rem;
-  padding: 1rem 0 3rem 0;
+  grid-column-gap: .9rem;
+  padding: 1rem .4rem 3rem .4rem;
   text-align: center;
   padding-bottom: 3rem;
 }
@@ -417,7 +429,7 @@ margin-top: .2rem;
 /* images styles ---->*/
 
 .featured-box {
-  min-height: 15rem;
+  min-height: 22rem;
   margin-top: 1rem;
   margin-bottom: 0.875rem;
   background-color: #0D0D0C;
@@ -426,9 +438,9 @@ margin-top: .2rem;
 }
 
 #pumpkin img {
-  height:15rem;
+  height:22rem;
   width: 100%;
-  opacity: 0.4;
+  opacity: 0.8;
   padding: 6rem 3rem 3rem 3rem;
   background-image: url(./img/HPB_Falloween_BG_1.png);
   background-position: center;
@@ -448,9 +460,9 @@ margin-top: .2rem;
 }
 
 #horror {
-  height: 15rem;
+  height: 20rem;
   width: 100%;
-  background-image: url(./img/HPB_Horror_BGV9.png);
+  background-image: url(./img/HPB_HORROR_BG.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
