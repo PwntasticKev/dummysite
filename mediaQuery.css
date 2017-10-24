@@ -49,31 +49,55 @@
 
 
 
-@media screen and (max-width: 1576px) {
-.shirt-swap-lt {
-  margin-left: 42rem;
+@media screen and (max-width: 1521px) {
+
+  .shirt-right-container {
+    float: right;
+  }
+
+  .shirt-left-container {
+    text-align: inherit;
+  }
+
+.is-countdown {
+  text-align: center;
+  float: right;
+  position: absolute;
+  left: 41rem;
+  margin-top: 3.6rem;
 }
 
-.shirt-swap-lb {
-  margin-left: 42rem;
+.shirt-size img  {
+  height: 19rem;
+}
+
+.share-grid {
+  padding: 0 6rem;
+}
+
+.bottom-container {
+  padding: 0 7rem 2rem 7rem;
+}
+
+.featured-at-creek {
+}
+.--featured-- {
+  left: 3rem;
+  width: 80%;
 }
 
 }
 
-@media screen and (min-width: 1720px) {
+
+
+@media screen and (min-width: 1721px) {
   .shirt-swap-lt {
-    margin-top: 34.8rem;
-    margin-left: 53.3rem;
   }
 
   .shirt-swap-lb {
-    margin-left: 53.3rem;
   }
 
-  .shirt-swap-rt {
-    margin-top: 34.8rem;
-    margin-right: 50.7rem;
-  }
+
 .right-image {
   height: 45rem;
 }
@@ -121,10 +145,6 @@ left: 51.5rem;
 .pic-2 {
 }
 
-body {
-padding: 0 .1px 0 .1px;
-}
-
 .shirt-grid {
   padding: 0 17rem 0 17rem;
 }
@@ -151,4 +171,143 @@ padding: 0px 18rem;
   #new-header {
     display: none;
   }
+}
+@media screen and (max-width: 1679px) {
+
+.right-image {
+  width: 49.8%
+}
+.left-image {
+  width: 49.8%
+}
+.shirt-swap-rt {
+  top:48rem;
+}
+.shirt-swap-rb {
+  top: 52.4rem;
+}
+.mini-boxes {
+  top:48rem;
+  left:45.5rem;
+  margin-right: 1rem;
+}
+.gem {
+
+  bottom: 1rem;
+}
+
+.featured-at-creek {
+  left: 41rem;
+}
+
+.sign-up-button {
+  height: 2.95rem;
+
+}
+
+}
+
+@media screen and (max-width: 1679px) {
+
+.share-grid {
+  padding: 0 3rem;
+}
+
+}
+
+@media screen and (max-width: 1019px) {
+  .left-container {
+    display:none;
+  }
+  .right-container {
+    display:none;
+  }
+  .is-countdown {
+    display: none;
+  }
+  .mini-boxes {
+    display: none;
+  }
+  .shirt-swap-rb {
+    display: none;
+  }
+  .shirt-swap-rt {
+    display: none;
+  }
+
+  .header-container {
+    display: none;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .gem {
+    display: none;
+  }
+
+  .right-image {
+    width: 49.7%;
+    height: 25rem;
+  }
+  .left-image {
+    width: 49.7%;
+    height: 25rem;
+  }
+
+  .shirt-left-container {
+    text-align: center;
+  }
+
+  #testie {
+    bottom: 8.3rem;
+  }
+
+
+
+.featured-box {
+  min-height: 17rem;
+}
+
+  #horror {
+    height: 17rem;
+  }
+
+  #pumpkin img {
+    height: 17rem;
+    padding: 4rem 2rem 4rem 2rem;
+  }
+
+  #black img {
+        height: 12rem;
+  }
+.shirt-grid {
+display:none;
+}
+
+.shirt img {
+  height: 32rem;
+}
+
+#s1 {
+  display: inline-block;
+}
+
+#s2 {
+  display: inline-block;
+}
+
+.two-pic-container {
+  margin-top: 2rem;
+}
+
+.share-grid {
+}
+
+#sharepic {
+  height: 10rem;
+}
+
+
 }
