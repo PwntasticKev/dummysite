@@ -216,12 +216,7 @@ padding: 0px 18rem;
 }
 
 @media screen and (max-width: 1019px) {
-  .left-container {
-    display:none;
-  }
-  .right-container {
-    display:none;
-  }
+
   .is-countdown {
     display: none;
   }
@@ -235,11 +230,14 @@ padding: 0px 18rem;
     display: none;
   }
 
-  .header-container {
+  .top-bar-container {
     display: none;
   }
 
   .banner {
+    display: none;
+  }
+  .header-container {
     display: none;
   }
 
@@ -359,5 +357,98 @@ display:none;
 .what-is-container {
     padding: 0px 1.3rem 0 1.3rem;
 }
+
+.mobile-count-header {
+  background-color: #ff8500;
+display: flex;
+justify-content: center;
+}
+
+.mobile-countdown {
+  font-size: 1.9rem;
+  display: inline-block;
+  background-color: #ff8500;
+  color: white;
+  text-align: center;
+  /*border: 1px solid #ff8500;*/
+}
+
+#demo {
+  font-size: 1.7rem;
+}
+
+#hours-left {
+  padding-top: .2rem;
+  font-size: .9rem;
+  padding-bottom: .25rem;
+}
+
+.mobile-header {
+  width: 100%;
+  height: 3rem;
+  background-color: #00b9bd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger {
+color: white;
+display: inline-block;
+padding: .75rem .75rem .75rem 1rem;
+}
+
+.mobile-logo {
+  color: white;
+  display: inline-block;
+  padding: .5rem;
+}
+
+.mobile-cart {
+  color: white;
+  display: inline-block;
+  padding: .75rem;
+}
+
+.burger i {
+  font-size: 1.5rem;
+}
+
+.mobile-logo i {
+  font-size: 2rem;
+}
+
+.mobile-cart i{
+  font-size: 1.9rem;
+}
+
+.mobile-white-header {
+  height: 3rem;
+  background-color: white;
+}
+
+.mobile-banner {
+}
+
+
+}
+
+
+
+@media screen and (max-width: 999px) {
+ .shirt-size img {
+   height:28rem;
+ }
+ .share-pic img {
+   height: 19rem;
+ }
+}
+
+
+@media screen and (max-width: 878px) {
+
+}
+
+
+@media screen and (max-width: 639px) {
 
 }

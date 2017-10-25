@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 
     document.getElementById("demo").innerHTML = hours + ":"
-    + minutes + ":" + seconds + "s";
+    + minutes + ":" + seconds + "";
 
     if (distance < 0) {
       clearInterval(x);
