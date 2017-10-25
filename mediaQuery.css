@@ -261,7 +261,7 @@ padding: 0px 18rem;
   }
 
   #testie {
-    bottom: 8.3rem;
+    bottom: 7.8rem;
   }
 
 
@@ -303,11 +303,61 @@ display:none;
 }
 
 .share-grid {
+  display: none;
+}
+
+.share-pic {
+  margin-top: 2rem;
+  display: inline-block;
 }
 
 #sharepic {
-  height: 10rem;
+  height: 20rem;
 }
 
+#sharephotos {
+    left: 14rem;
+}
+.featured-at-creek {
+    left: 20rem;
+}
+
+.pic-2 {
+  display: none;
+}
+
+.pic-1 {
+  height: 22.3em;
+}
+
+.bottom-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 .5rem 0 .5rem;
+}
+
+.bottom-info-container {
+  padding: 0
+}
+
+#blogtitle {
+  left: 20rem;
+}
+
+.footer {
+  grid-template-columns:  1fr;
+}
+
+.footer-left {
+  text-align: center;
+}
+
+.footer-left-container {
+  padding: 0;
+}
+
+.what-is-container {
+    padding: 0px 1.3rem 0 1.3rem;
+}
 
 }
