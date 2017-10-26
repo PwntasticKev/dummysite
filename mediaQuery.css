@@ -91,7 +91,10 @@
 
 
 @media screen and (min-width: 1721px) {
+
+
   .shirt-swap-lt {
+
   }
 
   .shirt-swap-lb {
@@ -208,6 +211,7 @@ padding: 0px 18rem;
 }
 
 @media screen and (max-width: 1679px) {
+
 
 .share-grid {
   padding: 0 3rem;
@@ -431,6 +435,11 @@ padding: .75rem .75rem .75rem 1rem;
 
 
 }
+@media screen and (min-width: 1018px) {
+.mobile-only {
+  display: none
+  }
+}
 
 
 
@@ -441,14 +450,103 @@ padding: .75rem .75rem .75rem 1rem;
  .share-pic img {
    height: 19rem;
  }
+ #sharepic {
+   height:17rem;
+ }
 }
 
 
 @media screen and (max-width: 878px) {
+.shirt-size img {
+  height: 27rem;
+}
+
+.featured-at-creek {
+  left: 15rem;
+}
+
+#sharephotos {
+  left: 10rem;
+}
+
+#sharepic {
+  height:17rem;
+}
+
+#blogtitle{
+left: 15rem;
+}
 
 }
 
+@media screen and (max-width: 848px) {
+.shirt-size img {
+  height: 25rem;
+}
 
-@media screen and (max-width: 639px) {
+.featured-at-creek {
+  left: 15rem;
+}
 
+#sharephotos {
+  left: 10rem;
+}
+
+#sharepic {
+  height:16rem;
+}
+
+#blogtitle{
+left: 15rem;
+}
+
+}
+
+@media screen and (max-width: 798px) {
+.shirt-size img {
+  height: 24rem;
+}
+
+.featured-at-creek {
+  left: 14rem;
+}
+
+#sharepic {
+  height:15.5rem;
+}
+}
+@media screen and (max-width: 770px) {
+.shirt-size img {
+  height: 23rem;
+}
+
+.featured-at-creek {
+  left: 13rem;
+}
+
+#sharepic {
+  height:14rem;
+}
+}
+@media screen and (max-width: 729px) {
+.shirt-size img {
+  height: 22rem;
+}
+
+.featured-at-creek {
+  left: 13rem;
+}
+
+#sharepic {
+  height:13rem;
+}
+}
+
+
+@media screen and (max-width: 712px) {
+  .left-image {
+    width: 100%;
+    height: 30rem;
+    background-position: center;
+  }
 }

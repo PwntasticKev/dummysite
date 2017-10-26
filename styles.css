@@ -165,7 +165,7 @@ width: 1rem;
   float: right;
   cursor: pointer;
   position: absolute;
-  bottom: -3rem;
+  bottom: -6rem;
   right: 1.3rem;;
 
 }
@@ -173,12 +173,14 @@ width: 1rem;
   background: url(http://www.teefury.com/media/catalog/product/cache/1/odad_flat_product/960x680/9df78eab33525d08d6e5fb8d27136e95/t/e/tee_pop-pop-corn_beware_1984_blk.png?color=odad-gray);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   /*display: inline-block;*/
   position: absolute;
-  bottom:.8rem;
-  width: 80px;
-  height: 60px;
+  bottom: -2rem;
+  width: 5%;
+  height: 7%;
   margin-left: 20px;
+  margin-top: 1rem;
   cursor: pointer;
   border: 1px solid rgba(241, 241, 241, 0.25);
   box-shadow: 0px 2px 3px 0px #4c5152;
@@ -188,10 +190,11 @@ width: 1rem;
   background: url(http://www.teefury.com/media/catalog/product/cache/1/odad_model_pair/960x680/9df78eab33525d08d6e5fb8d27136e95/o/d/odad_modelpair_pop-pop-corn.png?color=odad-gray);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 80px;
-  height: 60px;
+  background-position: center;
+  width: 5%;
+  height: 7%;
   position: absolute;
-  top: 61.2rem;
+  top: 61.7rem;
   margin-bottom: .5rem;
   margin-left: 20px;
   cursor: pointer;
@@ -202,8 +205,9 @@ width: 1rem;
   background: url(./img/gravity.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 80px;
-  height: 60px;
+  background-position: center;
+  width: 100%;
+  height: 100%;
   margin-bottom: .5rem;
   cursor: pointer;
   border: 1px solid rgba(241, 241, 241, 0.25);
@@ -215,8 +219,9 @@ width: 1rem;
   cursor: pointer;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 80px;
-  height: 60px;
+  background-position: center;
+  width: 100%;
+  height: 100%;
   border: 1px solid rgba(241, 241, 241, 0.25);
   box-shadow: 0px 2px 3px 0px #4c5152;
 }
@@ -224,7 +229,9 @@ width: 1rem;
 .mini-boxes {
   position: absolute;
   top:57rem;
-  left:53rem;
+  left:52rem;
+  width: 5%;
+  height: 7%;
 }
 
 .shirt-left-box1 {
