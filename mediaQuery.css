@@ -520,6 +520,36 @@ left: 15rem;
   height: 23rem;
 }
 
+#testie {
+  bottom: 5.8rem;
+}
+
+.featured-box {
+  min-height: 12rem;
+}
+#black {
+  height: 12rem;
+}
+
+#horror {
+  height: 12rem;
+}
+
+#pumpkin {
+  height: 12rem;
+}
+
+#pumpkin img {
+  height: 12rem;
+}
+#black img {
+    height: 12rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+
 .featured-at-creek {
   left: 13rem;
 }
@@ -549,4 +579,114 @@ left: 15rem;
     height: 30rem;
     background-position: center;
   }
+
+  .right-image {
+    width: 100%;
+    height: 30rem;
+
+  }
+
+  .shirt-left-container {
+    margin-left: auto;
+    width: 100%;
+    padding-right: 3rem;
+    font-size: 1.625rem;
+  }
+
+  #buyleft {
+    margin-right: 0;
+  }
+
+  #desktop-buy-button {
+    display: none;
+  }
+
+.mobile-white-header {
+  height: 2rem;
+  background-color:white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  padding: .5rem;
+  margin: .5rem 0 .5rem 0;
+}
+
+#testie {
+  bottom: 8rem;
+}
+.menu-pics {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0;
+    padding: 0;
+    height: 14rem;
+}
+
+.tees-box {
+  padding-top: 67%;
+}
+.desktop-only {
+  display: none;
+}
+
+.--featured-- {
+  margin-top: 3.9rem;
+}
+
+.featured-at-creek {
+  left: 11rem;
+}
+
+#sharephotos {
+  left: 5rem;
+}
+
+#sharepic {
+  height:14rem;
+
+}
+
+#blogtitle{
+left: 11rem;
+}
+
+.featured-here {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#black {
+  height: 21.8rem;
+}
+
+#horror {
+  height: 21.8rem;
+}
+
+#pumpkin {
+  height: 21.8rem;
+}
+
+#pumpkin img {
+  height: 21.8rem;
+}
+#black img {
+    height: 21.8rem;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
+
+#s2 {
+  display: none;
+}
+
+.shirt-size img {
+    height: 44rem;
+    padding: 1rem;
+}
+
+.share-pic {
+  display: none;
+}
+
 }
