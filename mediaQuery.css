@@ -630,7 +630,8 @@ left: 15rem;
 }
 
 .--featured-- {
-  margin-top: 3.9rem;
+  margin-top: 4.9rem;
+  height: 0;
 }
 
 .featured-at-creek {
@@ -638,7 +639,8 @@ left: 15rem;
 }
 
 #sharephotos {
-  left: 5rem;
+  left: 4rem;
+  font-size: 1.45rem;
 }
 
 #sharepic {
@@ -647,7 +649,7 @@ left: 15rem;
 }
 
 #blogtitle{
-left: 11rem;
+left:11rem;
 }
 
 .featured-here {
@@ -682,6 +684,7 @@ left: 11rem;
 
 .shirt-size img {
     height: 44rem;
+    width: 100%;
     padding: 1rem;
 }
 
@@ -689,4 +692,230 @@ left: 11rem;
   display: none;
 }
 
+#sharepic {
+    height: 38.3rem;
+    width: 100%;
+    padding: .5rem;
+    margin-top: 1rem;
+}
+.pic-1 {
+    height: 16.3em;
+}
+
+.featured-box {
+  margin-bottom: 0;
+}
+
+.bottom-info-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.copyright-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.links {
+  margin-top: 1rem;
+}
+
+}
+
+@media screen and (max-width: 523px) {
+
+  .shirt-size img {
+    height: 31rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+  .featured-at-creek {
+    left: 5rem;
+  }
+
+  #sharephotos {
+    left: 1.2rem;
+  }
+
+  #sharepic {
+    height:14rem;
+    padding: 0;
+
+  }
+
+  #blogtitle{
+  left:5.5rem;
+  }
+
+
+  #sharepic {
+      height: 29rem;
+  }
+
+
+  .mobile-share-pic {
+        margin-top: 3rem;
+  }
+
+  .featured-here {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #black {
+    height: 13.8rem;
+  }
+
+  #horror {
+    height: 13.8rem;
+  }
+
+  #pumpkin {
+    height: 13.8rem;
+  }
+
+  #pumpkin img {
+    height: 13.8rem;
+  }
+  #black img {
+    height: 13.8rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 443px) {
+
+  .featured-at-creek {
+    left: 2rem;
+  }
+
+  #sharephotos {
+    left: 1.2rem;
+  }
+
+  #sharepic {
+    height:14rem;
+    padding: 0;
+
+  }
+
+  #blogtitle{
+  left:3rem;
+  }
+
+
+  #sharepic {
+    height: 22rem;
+
+  }
+
+  .pic-1 {
+    height: 9.3em;
+}
+
+.what-is-content {
+    line-height: 1.7;
+
+}
+
+.shirt-size img {
+  height: 27rem;
+}
+
+
+  .mobile-share-pic {
+        margin-top: 3rem;
+  }
+
+  .left-image {
+    height: 17rem;
+  }
+
+.right-image {
+  height: 17rem;
+}
+
+#checkitouttitle {
+  display: none;
+}
+
+.h3 {
+  font-size: 1.325rem;
+}
+
+.price {
+      font-size: 1.5rem;
+}
+
+.buy-button {
+  font-size: .75rem;
+}
+}
+
+
+@media screen and (max-width: 305px) {
+
+  .featured-at-creek {
+    left: 0rem;
+  }
+
+  .price {
+        font-size: 1.3rem;
+  }
+
+  #sharephotos {
+    left: 0;
+  }
+
+  #sharepic {
+    height:14rem;
+    padding: 0;
+
+  }
+
+  #blogtitle{
+  left:1rem;
+  }
+
+
+  #sharepic {
+    height: 22rem;
+
+  }
+
+  .pic-1 {
+    height: 9.3em;
+}
+
+.what-is-content {
+    line-height: 1.7;
+
+}
+
+.shirt-size img {
+  height: 27rem;
+}
+
+
+  .mobile-share-pic {
+        margin-top: 3rem;
+  }
+
+  .left-image {
+    height: 14rem;
+  }
+
+.right-image {
+  height: 14rem;
+}
+
+  #testie {
+    bottom: 0;
+  }
+
+  .h3 {
+    font-size: 1.125rem;
+  }
 }
